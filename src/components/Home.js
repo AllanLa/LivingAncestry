@@ -14,6 +14,8 @@ import Info5 from './imgs/InfoComputer5.png';
 import Info7 from './imgs/Infographic6.png';
 import LivingAncestry_AI_Implications from './imgs/LivingAncestry_AI_Implications.mp4';
 import UserStory from './imgs/UserStoryVideo.mp4';
+import Poster from './imgs/poster.png'
+import Poster2 from './imgs/poster2.png'
 import Demo from './imgs/LivingAncestryDemo.mp4';
 
 
@@ -65,7 +67,7 @@ export class Home extends Component {
 					</div>
 
 
-					<video style={{ maxWidth: 800 }} controls>
+					<video poster={Poster} style={{ maxWidth: 800 }} controls>
 						<source src={UserStory} type="video/mp4" />
 					</video>
 				</section>
@@ -125,7 +127,7 @@ export class Home extends Component {
 						<p>Users will be able to opt into an AI Generated Content Service using the data in their time capsules to generate content. For example, users can leverge PDFs they have in their time capsules to generate content, in my case generated college advice. <b style={{ fontStyle: 'italic' }}>What can be generated from yours?</b></p>
 					</div>
 
-					<video style={{ maxWidth: 800 }} controls>
+					<video poster={Poster2} style={{ maxWidth: 800 }} controls>
 						<source src={LivingAncestry_AI_Implications} type="video/mp4" />
 					</video>
 				</section>
