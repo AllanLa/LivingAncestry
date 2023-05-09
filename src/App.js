@@ -23,21 +23,21 @@ export default class App extends Component {
   render () {
     return (
         <Layout style={{ height: '100%' }}>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/profile/:id' component={Profile} />
-            <Route exact path='/profile/allanla/stories' component={Stories} />
-            <Route exact path='/profile/stories/college' component={College} />
-            <Route exact path='/profile/stories/american' component={American} />
-            <Route exact path='/profile/allanla/hobbies' component={Hobbies} />
-            <Route exact path='/profile/hobbies/breaking' component={Breaking} />
-            <Route exact path='/profile/hobbies/snowboarding' component={Snowboarding} />
-            <Route exact path='/profile/allanla/travels' component={Travels} />
-            <Route exact path='/profile/travels/chinatown' component={Chinatown} />
-            <Route exact path='/profile/allanla/recipes' component={Recipes} />
-            <Route exact path='/profile/recipes/BunRieu' component={BunRieu} />
-            <Route exact path='/faq' component={FAQ} />
-            <Route exact path='/mission' component={Mission} />
-            <Route exact path='/tree'
+            <Route exact path='/LivingAncestry' component={Home} />
+            <Route exact path='/LivingAncestry/profile/:id' component={Profile} />
+            <Route exact path='/LivingAncestry/profile/allanla/stories' component={Stories} />
+            <Route exact path='/LivingAncestry/profile/stories/college' component={College} />
+            <Route exact path='/LivingAncestry/profile/stories/american' component={American} />
+            <Route exact path='/LivingAncestry/profile/allanla/hobbies' component={Hobbies} />
+            <Route exact path='/LivingAncestry/profile/hobbies/breaking' component={Breaking} />
+            <Route exact path='/LivingAncestry/profile/hobbies/snowboarding' component={Snowboarding} />
+            <Route exact path='/LivingAncestry/profile/allanla/travels' component={Travels} />
+            <Route exact path='/LivingAncestry/profile/travels/chinatown' component={Chinatown} />
+            <Route exact path='/LivingAncestry/profile/allanla/recipes' component={Recipes} />
+            <Route exact path='/LivingAncestry/profile/recipes/BunRieu' component={BunRieu} />
+            <Route exact path='/LivingAncestry/faq' component={FAQ} />
+            <Route exact path='/LivingAncestry/mission' component={Mission} />
+            <Route exact path='/LivingAncestry/tree'
                 render={(props) => <Tree {...props} />} />
          
             
