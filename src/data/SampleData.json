@@ -1,0 +1,185 @@
+﻿[
+  {
+    "id": "duyla",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "thanhla",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "samla",
+        "type": "blood"
+      },
+      {
+        "id": "teresala",
+        "type": "blood"
+      },
+      {
+        "id": "allanla",
+        "type": "blood"
+      },
+      {
+        "id": "anitala",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "thanhla",
+    "gender": "female",
+    "spouses": [
+      {
+        "id": "duyla",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "samla",
+        "type": "blood"
+      },
+      {
+        "id": "teresala",
+        "type": "blood"
+      },
+      {
+        "id": "allanla",
+        "type": "blood"
+      },
+      {
+        "id": "anitala",
+        "type": "blood"
+      }
+    ],
+    "parents": [],
+    "siblings": []
+  },
+  {
+    "id": "samla",
+    "gender": "male",
+    "spouses": [],
+    "children": [],
+    "parents": [
+      {
+        "id": "duyla",
+        "type": "blood"
+      },
+      {
+        "id": "thanhla",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+      {
+        "id": "teresala",
+        "type": "blood"
+      },
+      {
+        "id": "allanla",
+        "type": "blood"
+      },
+      {
+        "id": "anitala",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "teresala",
+    "gender": "female",
+    "spouses": [],
+    "children": [],
+    "parents": [
+      {
+        "id": "duyla",
+        "type": "blood"
+      },
+      {
+        "id": "thanhla",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+
+      {
+        "id": "teresala",
+        "type": "blood"
+      },
+      {
+        "id": "allanla",
+        "type": "blood"
+      },
+      {
+        "id": "samla",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "allanla",
+    "gender": "male",
+    "spouses": [],
+    "children": [],
+    "parents": [
+      {
+        "id": "duyla",
+        "type": "blood"
+      },
+      {
+        "id": "thanhla",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+
+      {
+        "id": "teresala",
+        "type": "blood"
+      },
+      {
+        "id": "samla",
+        "type": "blood"
+      },
+      {
+        "id": "anitala",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "anitala",
+    "gender": "female",
+    "spouses": [],
+    "children": [],
+    "parents": [
+      {
+        "id": "duyla",
+        "type": "blood"
+      },
+      {
+        "id": "thanhla",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+
+      {
+        "id": "teresala",
+        "type": "blood"
+      },
+      {
+        "id": "allanla",
+        "type": "blood"
+      },
+      {
+        "id": "samla",
+        "type": "blood"
+      }
+    ]
+  }
+]

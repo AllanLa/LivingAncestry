@@ -1,0 +1,52 @@
+﻿html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+.bottom {
+    text-align: center;
+    background: #C1C1C1;
+}
+
+.lightgrey-bg {
+    background: #d3d3d3;
+}
+
+#root {
+    height: 100%;
+}
+
+.backButton {
+    width: 100px;
+    box-shadow: none;
+    color: white;
+    background: #d3d3d3;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+svg g g image {
+    border-radius: 50%;
+
+}
+
+.carousel.slide {
+    max-width: 400px;
+}
+
+.card {
+    border: 1px solid white;
+}
+
+.treenode .card img {
+    border-radius: 50%;
+}
+
+.nodeNameBase {
+    display: none;
+}
+
+foreignObject {
+    transform: translate(-50px, -50px);
+}
