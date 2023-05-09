@@ -38,7 +38,7 @@ export class NavMenu extends Component {
             <header >                              
                 <Navbar style={{ marginBottom: 0 }} className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow " light>
                     <Container>                                     
-                        <NavbarBrand className="navigationLogo" style={{ marginLeft: 0 }} href="/LivingAncestry" >                      
+                        <NavbarBrand className="navigationLogo" style={{ marginLeft: 0 }} href="/LivingAncestry/" >                      
                             <Media className="navigationLogo" src={logo} style={{marginRight: 0 }} alt="Living Ancestry Clock" />                                                          
                         </NavbarBrand>                                                             
                 

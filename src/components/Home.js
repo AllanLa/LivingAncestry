@@ -12,6 +12,8 @@ import Info3 from './imgs/InfoComputer3.png';
 import Info4 from './imgs/InfoComputer4.png';
 import Info5 from './imgs/InfoComputer5.png';
 import Info7 from './imgs/Infographic6.png';
+import LivingAncestry_AI_Implications from './imgs/LivingAncestry_AI_Implications.mp4';
+import UserStory from './imgs/UserStoryVideo.mp4';
 import Demo from './imgs/LivingAncestryDemo.mp4';
 
 
@@ -40,12 +42,14 @@ export class Home extends Component {
 			body: JSON.stringify(submitData)
 		})
 			.then(response => {
-				if (response.status == 200) {
-					this.setState({
-						signedUp: true
-					})
-				}
-			})
+				this.setState({
+					signedUp: true
+				})
+			}).catch(error => {
+				this.setState({
+					signedUp: true
+				})
+            })
 
 	}
 
@@ -58,14 +62,12 @@ export class Home extends Component {
 					<div class="content">
 						<h1>What are we?</h1>
 						<p class="major"> Imagine having access to <b style={{ fontStyle: 'italic' }}>generations</b> of memories and experiences <b style={{ fontStyle: 'italic' }}>created</b> by your family, relatives, and ancestors. Living Ancestry is a platform to build family trees but made of digital time capsules. We provide a service for you to <b style={{ fontStyle: 'italic' }}>preserve</b> your past, <b style={{ fontStyle: 'italic' }}>learn</b> about your family, and <b style={{ fontStyle: 'italic' }}>impact</b> the future.</p>
-						<ul class="actions stacked">
-							<li><a href="#first" class="button big wide smooth-scroll-middle">Learn More</a></li>
-						</ul>
 					</div>
 
 
-					<img class="image" style={{ backgroundImage: "url(" + spotlight3 + ")", maxHeight: 500 }} src={logo2} alt="logo" />
-
+					<video style={{ maxWidth: 800 }} controls>
+						<source src={UserStory} type="video/mp4" />
+					</video>
 				</section>
 
 
@@ -117,8 +119,19 @@ export class Home extends Component {
 
 				</section>
 
+				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h1>A.I. Implications</h1>
+						<p>Users will be able to opt into an AI Generated Content Service using the data in their time capsules to generate content. For example, users can leverge PDFs they have in their time capsules to generate content, in my case generated college advice. <b style={{ fontStyle: 'italic' }}>What can be generated from yours?</b></p>
+					</div>
+
+					<video style={{ maxWidth: 800 }} controls>
+						<source src={LivingAncestry_AI_Implications} type="video/mp4" />
+					</video>
+				</section>
+
 				<section hidden={this.state.signedUp} class="wrapper style1 align-center" style={{ textAlign: 'center', marginBottom: 20 }}>
-					<Container style={{ paddingTop: 20, marginBottom: 10 }}>
+					<Container style={{ paddingTop: 50, marginBottom: 10 }}>
 						<h2>Help Us, Help You. If you support the idea of Living Ancestry, please sign up for the beta release to make this project a reality. Let's be apart of something larger.</h2>
 					</Container>
 					<div class="inner medium" style={{ marginTop: 0 }}>
@@ -148,6 +161,7 @@ export class Home extends Component {
 						<h2>THANK YOU SO MUCH FOR YOUR SUPPORT! Please feel free to follow Living Ancestry's social media for updates! Please feel free to share this with your family and friends as well! We really appreciate your help making Living Ancestry possible!</h2>
 					</Container>
 				</section>
+
 
 				<section class="spotlight style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 					<div class="content">

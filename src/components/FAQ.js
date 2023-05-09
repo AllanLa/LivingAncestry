@@ -27,11 +27,9 @@ export class FAQ extends Component {
 			body: JSON.stringify(submitData)
 		})
 			.then(response => {
-				if (response.status == 200) {
-					this.setState({
-						signedUp: true
-					})
-				}
+				this.setState({
+					signedUp: true
+				})
 			})
 
 	}
