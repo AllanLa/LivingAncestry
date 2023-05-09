@@ -14,6 +14,7 @@ import Info5 from './imgs/InfoComputer5.png';
 import Info7 from './imgs/Infographic6.png';
 import Demo from './imgs/LivingAncestryDemo.mp4';
 
+
 export class Home extends Component {
 	static displayName = Home.name;
 
@@ -84,7 +85,7 @@ export class Home extends Component {
 						<h2>Step 1: Build Out Your Digital Time Capsule</h2>
 						<p>Document recipes, stories, music, fashion, etc, anything you find important. Users can upload audio files, PDFs, videos, pictures, or text to their time capsules. What will you <b style={{ fontStyle: 'italic' }}>pass down?</b></p>
 						<ul class="actions stacked">
-							<li><a onClick={() => this.props.history.push('profile/allanla')} class="button">View Example Time Capsule</a></li>
+							<li><a onClick={() => this.props.history.push('/profile/allanla')} class="button">View Example Time Capsule</a></li>
 						</ul>
 					</div>
 
@@ -98,7 +99,7 @@ export class Home extends Component {
 						<h2>Step 2: Connect Your Family Tree</h2>
 						<p>Users will be able to add other users to their family tree or join an existing family tree. Members of the tree will be able to view each other's digital time capsule. How much can you <b style={{ fontStyle: 'italic' }}>learn about your family?</b> How much can your family <b style={{ fontStyle: 'italic' }}>learn about you?</b></p>
 						<ul class="actions stacked">
-							<li><a onClick={() => this.props.history.push('tree')} class="button">View Example Tree</a></li>
+							<li><a onClick={() => this.props.history.push('/tree')} class="button">View Example Tree</a></li>
 						</ul>
 					</div>
 
@@ -153,7 +154,7 @@ export class Home extends Component {
 						<h1>Demo Video</h1>
 						<p class="major">The video shows a demo of what users will be able to create. Users will be able to create a family tree and digital time capsules like the ones from the video. Please sign up if you support this idea! Have more questions? Visit the FAQ page!</p>
 						<ul class="actions stacked">
-							<li><a onClick={() => this.props.history.push('faq')} class="button">FAQ</a></li>
+							<li><a onClick={() => this.props.history.push('/faq')} class="button">FAQ</a></li>
 						</ul>
 					</div>
 

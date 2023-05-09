@@ -22,14 +22,12 @@ export class Footer extends Component {
                     <ButtonGroup>
                         <Button outline className="fab fa-facebook" color="secondary"
                                 onClick={this.openLink.bind(this, "https://fb.me/LivingAncestry")} />
-                        <Button outline className="fab fa-instagram" color="secondary"
-                            onClick={this.openLink.bind(this, "https://www.instagram.com/livingancestry/")} />
                         <Button outline className="fab fa-linkedin" color="secondary"
                                 onClick={this.openLink.bind(this, "https://www.linkedin.com/company/47579938")} />
                         </ButtonGroup>
                     </Row>
                     <Row>
-                        <NavbarText>© 2020 Living Ancestry, Inc. Please email laallan.livingancestry@gmail.com for questions or further inquiries.</NavbarText>
+                        <NavbarText>©2023 Living Ancestry, Inc. Please email allanlalala@gmail.com for questions or further inquiries.</NavbarText>
                         </Row>
                 </Navbar>
             </footer>
