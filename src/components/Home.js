@@ -16,6 +16,7 @@ import LivingAncestry_AI_Implications from './imgs/LivingAncestry_AI_Implication
 import UserStory from './imgs/UserStoryVideo.mp4';
 import Poster from './imgs/poster.png'
 import Poster2 from './imgs/poster2.png'
+import Poster3 from './imgs/poster3.png'
 import Demo from './imgs/LivingAncestryDemo.mp4';
 
 
@@ -175,7 +176,7 @@ export class Home extends Component {
 					</div>
 
 
-					<video class="image" controls>
+					<video poster={Poster3} class="image" controls>
 						<source src={Demo} type="video/mp4" />
 					</video>
 				</section>
