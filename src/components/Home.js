@@ -124,8 +124,8 @@ export class Home extends Component {
 
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
-						<h1>A.I. Implications</h1>
-						<p>Users will be able to opt into an AI Generated Content Service using the data in their time capsules to generate content. For example, users can leverge PDFs they have in their time capsules to generate content, in my case generated college advice. <b style={{ fontStyle: 'italic' }}>What can be generated from yours?</b></p>
+						<h1>A.I / A.R / V.R Implications</h1>
+						<p>Users will be able to opt into an AI Generated Content Service using the data in their time capsules to generate content. For example, users can leverge PDFs they have in their time capsules to generate content, in my case generated college advice. <b style={{ fontStyle: 'italic' }}>Imagine what can be generated from yours?</b></p>
 					</div>
 
 					<video poster={Poster2} style={{ maxWidth: 800 }} controls>
