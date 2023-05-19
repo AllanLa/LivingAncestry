@@ -64,7 +64,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 					<div class="content">
 						<h1>What are we?</h1>
-						<p class="major"> Imagine having access to <b style={{ fontStyle: 'italic' }}>generations</b> of memories and experiences <b style={{ fontStyle: 'italic' }}>created</b> by your family, relatives, and ancestors. Living Ancestry is a platform to build family trees but made of digital time capsules. We provide a service for you to <b style={{ fontStyle: 'italic' }}>preserve</b> your past, <b style={{ fontStyle: 'italic' }}>learn</b> about your family, and <b style={{ fontStyle: 'italic' }}>impact</b> the future.</p>
+						<p class="major"> Imagine having access to <b style={{ fontStyle: 'italic' }}>generations</b> of memories and experiences <b style={{ fontStyle: 'italic' }}>created</b> by your family, relatives, and ancestors. Living Ancestry is a platform to build family trees but made of digital time capsules. We provide a service for you to <b style={{ fontStyle: 'italic' }}>preserve</b> your legacy, <b style={{ fontStyle: 'italic' }}>learn</b> about your family, and <b style={{ fontStyle: 'italic' }}>foster generational wealth</b>  in the form of data for your descendants.</p>
 					</div>
 
 
@@ -77,7 +77,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 					<div class="content">
 						<h2>How It Works</h2>
-						<p>The idea is for members of your family to each build out their own <b style={{ fontStyle: 'italic' }}>digital time capsules</b>, which will be stored in your <b style={{ fontStyle: 'italic' }}>family tree.</b> The digital time capsules can be accessed by members of the same tree. The goal is to <b style={{ fontStyle: 'italic' }}>expand</b> the family tree over time so that it becomes an archive of memories that any future generation can learn from. Our stories and experiences are important to us, so why let it be <b style={{ fontStyle: 'italic' }}>forgotten?</b></p>
+						<p>The idea is for members of your family to each build out their own <b style={{ fontStyle: 'italic' }}>digital time capsules</b>, which will be stored in your <b style={{ fontStyle: 'italic' }}>family tree.</b> The digital time capsules can be accessed by members of the same tree. The goal is to <b style={{ fontStyle: 'italic' }}>expand</b> the family tree over time so that it becomes a data bank that future generations of yours can leverge. Our stories and experiences are important to us, so why let it be <b style={{ fontStyle: 'italic' }}>forgotten?</b></p>
 					</div>
 
 					<img class="image" style={{ backgroundImage: "url(" + banner + ")", maxHeight: 400 }} src={Info7} alt="" />
@@ -88,7 +88,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Step 1: Build Out Your Digital Time Capsule</h2>
-						<p>Document recipes, stories, music, fashion, etc, anything you find important. Users can upload audio files, PDFs, videos, pictures, or text to their time capsules. What will you <b style={{ fontStyle: 'italic' }}>pass down?</b></p>
+						<p>Document recipes, stories, music, fashion, etc, anything you find important. Users can upload audio files, PDFs, videos, pictures, or text to their time capsules. Our perspectives, our data is valuable. What will you <b style={{ fontStyle: 'italic' }}>pass down?</b></p>
 						<ul class="actions stacked">
 							<li><a onClick={() => this.props.history.push('/profile/allanla')} class="button">View Example Time Capsule</a></li>
 						</ul>
@@ -115,7 +115,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Step 3: Why Sign Up?</h2>
-						<p>Living Ancestry's Mission is to help users <b style={{ fontStyle: 'italic' }}>learn about their family and inspire descendants.</b> We want users to be remembered for how they lived their lives. We all have so much wisdom and passion that we can share and pass down. Imagine descendants from your family tree generations from now. They would have access to all the digital time capsules left behind. <b style={{ fontStyle: 'italic' }}>What can they learn from yours?</b></p>
+						<p>Living Ancestry's Mission is to help users <b style={{ fontStyle: 'italic' }}>learn about their family and inspire descendants.</b> We want users to be remembered for how they lived their lives. We all have so much wisdom and passion that we can share and pass down. Imagine descendants from your family tree generations from now. They would have access to all the digital time capsules left behind. Lets begin <b style={{ fontStyle: 'italic' }}>fostering digital generational wealth</b> for our descendants.</p>
 					</div>
 
 					<img class="image" src={Info5} style={{ backgroundImage: "url(" + spotlight3 + ")", maxHeight: 500 }} alt="" />

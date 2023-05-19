@@ -41,21 +41,22 @@ export class Mission extends Component {
 				
 				<div class="cd-faq__items">					
 
-					<ul id="basics" class="cd-faq__group">					
-						<li class="cd-faq__item">
-							<a class="cd-faq__trigger" ><span><b>Mission 1</b></span></a>
-							<div class="cd-faq__content">
-								<div class="text-component">
-									<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's first mission is to <b>preserve an individual's legacy</b> by offering a platform to create and personalize one's digital time capsule. Users will be able to foster and create impact for their family and descendants through a connected network of digital time capsule's built overtime.</p>
+						<ul id="basics" class="cd-faq__group">				
+
+							<li class="cd-faq__item">
+								<a class="cd-faq__trigger" ><span><b>Main Mission</b></span></a>
+								<div class="cd-faq__content">
+									<div class="text-component">
+										<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's main mission is to <b>foster digital generational wealth</b> for our users through a connected network of digital time capsule's built overtime.</p>
+									</div>
 								</div>
-							</div> 
-						</li>
+							</li>
 
 						<li class="cd-faq__item">
 							<a class="cd-faq__trigger" ><span><b>Mission 2</b></span></a>
 							<div class="cd-faq__content">
 								<div class="text-component">
-									<p style={{ color: 'black', fontSize: 16 }}>The second mission of Living Ancestry is to <b>inspire users</b> who are connected to their network of digital time capsules to <b>learn more about their family, who they are, where they came from.</b> Descendants will be motivated or inspired by these digital time capsules, so that they too will eventually craft their own time capsule, adding on to the growing network of digital time capsules to inspire the next generation.</p>
+									<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's second mission is to <b>preserve an individual's legacy</b> by offering a platform to create and personalize one's digital time capsule.</p>
 								</div>
 							</div> 
 						</li>
@@ -64,7 +65,16 @@ export class Mission extends Component {
 							<a class="cd-faq__trigger" ><span><b>Mission 3</b></span></a>
 							<div class="cd-faq__content">
 								<div class="text-component">
-									<p style={{ color: 'black', fontSize: 16 }}>The third mission of Living Ancestry is to <b>encourage and contribute to family relationships</b> by acting as a Family Social Media and Networking Platform.</p>
+									<p style={{ color: 'black', fontSize: 16 }}>The third mission of Living Ancestry is to <b>inspire users</b> who are connected to their network of digital time capsules to <b>learn more about their family, who they are, where they came from.</b> Descendants will be motivated or inspired by these digital time capsules, so that they too will eventually craft their own time capsule, adding on to the growing network of digital time capsules to inspire the next generation.</p>
+								</div>
+							</div> 
+						</li>
+
+						<li class="cd-faq__item">
+							<a class="cd-faq__trigger" ><span><b>Mission 4</b></span></a>
+							<div class="cd-faq__content">
+								<div class="text-component">
+									<p style={{ color: 'black', fontSize: 16 }}>The fourth mission of Living Ancestry is to <b>encourage and contribute to family relationships</b> by acting as a Family Social Media and Networking Platform.</p>
 								</div>
 							</div>
 						</li>						
