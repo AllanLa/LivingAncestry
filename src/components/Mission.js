@@ -65,7 +65,7 @@ export class Mission extends Component {
 							<a class="cd-faq__trigger" ><span><b>Mission 3</b></span></a>
 							<div class="cd-faq__content">
 								<div class="text-component">
-									<p style={{ color: 'black', fontSize: 16 }}>The third mission of Living Ancestry is to <b>inspire users</b> who are connected to their network of digital time capsules to <b>learn more about their family, who they are, where they came from.</b> Descendants will be motivated or inspired by these digital time capsules, so that they too will eventually craft their own time capsule, adding on to the growing network of digital time capsules to inspire the next generation.</p>
+										<p style={{ color: 'black', fontSize: 16 }}>The third mission of Living Ancestry is to <b>empower</b> descendants to harness the accumulation of digital wealth.</p>
 								</div>
 							</div> 
 						</li>
