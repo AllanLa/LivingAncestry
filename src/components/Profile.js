@@ -154,20 +154,6 @@ export class Profile extends Component {
                                                     <i className="fab fa-linkedin"> View Portfolio</i></Badge>
                                             </h3>
                                         </ListGroupItem>
-
-                                        <ListGroupItem color="info">
-                                            <h3>
-                                                <Badge target="_blank" href={profile.instagramUrl} color="danger">
-                                                    <i className="fab fa-instagram"> View Instagram</i></Badge>
-                                            </h3>
-                                        </ListGroupItem>
-
-                                        <ListGroupItem color="info">
-                                            <h3>
-                                                <Badge target="_blank" href={profile.facebookUrl} color="primary">
-                                                    <i className="fab fa-facebook"> View Facebook</i></Badge>
-                                            </h3>
-                                        </ListGroupItem>
                                     </ListGroup>
                                 </CardBody>
                             </Card>
