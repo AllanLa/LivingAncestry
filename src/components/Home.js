@@ -64,7 +64,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 					<div class="content">
 						<h1>What are we?</h1>
-						<p class="major"> Imagine having access to <b style={{ fontStyle: 'italic' }}>generations</b> of memories and experiences <b style={{ fontStyle: 'italic' }}>created</b> by your family, relatives, and ancestors. Living Ancestry is a platform to build family trees but made of digital time capsules. We provide a service for you to <b style={{ fontStyle: 'italic' }}>preserve</b> your legacy, <b style={{ fontStyle: 'italic' }}>learn</b> about your family, and <b style={{ fontStyle: 'italic' }}>foster generational wealth</b>  in the form of data for your descendants.</p>
+						<p class="major"> Imagine having access to <b style={{ fontStyle: 'italic' }}>generations</b> of memories and traditions <b style={{ fontStyle: 'italic' }}>created</b> by your family, relatives, and ancestors. Living Ancestry is a platform to build family trees but made of digital time capsules. We provide a service for you to <b style={{ fontStyle: 'italic' }}>preserve</b> your roots, <b style={{ fontStyle: 'italic' }}>pass down</b> traditions and to  <b style={{ fontStyle: 'italic' }}>foster</b> belonging.</p>
 					</div>
 
 
@@ -77,7 +77,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 					<div class="content">
 						<h2>How It Works</h2>
-						<p>The idea is for members of your family to each build out their own <b style={{ fontStyle: 'italic' }}>digital time capsules</b>, which will be stored in your <b style={{ fontStyle: 'italic' }}>family tree.</b> The digital time capsules can be accessed by members of the same tree. The goal is to <b style={{ fontStyle: 'italic' }}>expand</b> the family tree over time so that it becomes a data bank that future generations of yours can leverge. Our stories and experiences are important to us, so why let it be <b style={{ fontStyle: 'italic' }}>forgotten?</b></p>
+						<p>The idea is for members of your family to each build out their own <b style={{ fontStyle: 'italic' }}>digital time capsules</b>, which will be stored in your <b style={{ fontStyle: 'italic' }}>family tree.</b> The digital time capsules can be accessed by members of the same tree. Our roots and traditions are important to us, so why let it be <b style={{ fontStyle: 'italic' }}>forgotten?</b></p>
 					</div>
 
 					<img class="image" style={{ backgroundImage: "url(" + banner + ")", maxHeight: 400 }} src={Info7} alt="" />
@@ -88,7 +88,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Step 1: Build Out Your Digital Time Capsule</h2>
-						<p>Document recipes, stories, music, fashion, etc, anything you find important. Users can upload audio files, PDFs, videos, pictures, or text to their time capsules. Our perspectives, our data is valuable. What will you <b style={{ fontStyle: 'italic' }}>pass down?</b></p>
+						<p>Document recipes, stories, music, fashion, etc, anything you find important. Users can upload audio files, PDFs, videos, pictures, or text to their time capsules. Our role is to help <b style={{ fontStyle: 'italic' }}>facilitate</b> users to create meaningful and impactful digital time capsules.</p>
 						<ul class="actions stacked">
 							<li><a onClick={() => this.props.history.push('/profile/allanla')} class="button">View Example Time Capsule</a></li>
 						</ul>
@@ -102,7 +102,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Step 2: Connect Your Family Tree</h2>
-						<p>Users will be able to add other users to their family tree or join an existing family tree. Members of the tree will be able to view each other's digital time capsule. How much can you <b style={{ fontStyle: 'italic' }}>learn about your family?</b> How much can your family <b style={{ fontStyle: 'italic' }}>learn about you?</b></p>
+						<p>Users will be able to add other users to their family tree or join an existing family tree. Members of the tree will be able to view each other's digital time capsule. Our goal is to <b style={{ fontStyle: 'italic' }}>empower</b> future generations to leverge the time capsules left behind.</p>
 						<ul class="actions stacked">
 							<li><a onClick={() => this.props.history.push('/tree')} class="button">View Example Tree</a></li>
 						</ul>
@@ -115,7 +115,7 @@ export class Home extends Component {
 				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 					<div class="content">
 						<h2>Step 3: Why Sign Up?</h2>
-						<p>Living Ancestry's Mission is to help users <b style={{ fontStyle: 'italic' }}>learn about their family and inspire descendants.</b> We want users to be remembered for how they lived their lives. We all have so much wisdom and passion that we can share and pass down. Imagine descendants from your family tree generations from now. They would have access to all the digital time capsules left behind. Lets begin <b style={{ fontStyle: 'italic' }}>fostering digital generational wealth</b> for our descendants.</p>
+						<p>Living Ancestry's main mission is to <b style={{ fontStyle: 'italic' }}>foster digital generational wealth</b> for our users and their descendants. At the heart of Living Ancestry is our vision of addressing the challenges of generational wealth. Our philosophy is to facilitate families to build assets in the form of data stored in the digtal time capsules and ensure it's accessibility for future generations to leverge through the family tree.</p>
 					</div>
 
 					<img class="image" src={Info5} style={{ backgroundImage: "url(" + spotlight3 + ")", maxHeight: 500 }} alt="" />

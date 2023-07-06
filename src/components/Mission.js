@@ -47,7 +47,7 @@ export class Mission extends Component {
 								<a class="cd-faq__trigger" ><span><b>Main Mission</b></span></a>
 								<div class="cd-faq__content">
 									<div class="text-component">
-										<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's main mission is to <b>foster digital generational wealth</b> for our users through a connected network of digital time capsule's built overtime.</p>
+										<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's main mission is to <b>foster digital generational wealth</b> for our users and their descendants.</p>
 									</div>
 								</div>
 							</li>
@@ -56,7 +56,7 @@ export class Mission extends Component {
 							<a class="cd-faq__trigger" ><span><b>Mission 2</b></span></a>
 							<div class="cd-faq__content">
 								<div class="text-component">
-									<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's second mission is to <b>preserve an individual's legacy</b> by offering a platform to create and personalize one's digital time capsule.</p>
+									<p style={{ color: 'black', fontSize: 16 }}>Living Ancestry's second mission is to help <b>facilitate</b> users to create meaningful and impactful digital time capsules.</p>
 								</div>
 							</div> 
 						</li>
@@ -65,7 +65,7 @@ export class Mission extends Component {
 							<a class="cd-faq__trigger" ><span><b>Mission 3</b></span></a>
 							<div class="cd-faq__content">
 								<div class="text-component">
-										<p style={{ color: 'black', fontSize: 16 }}>The third mission of Living Ancestry is to <b>empower</b> descendants to harness the accumulation of digital wealth.</p>
+										<p style={{ color: 'black', fontSize: 16 }}>The third mission of Living Ancestry is to <b>empower</b> descendants to harness the digital time capsules left behind.</p>
 								</div>
 							</div> 
 						</li>
@@ -77,7 +77,16 @@ export class Mission extends Component {
 									<p style={{ color: 'black', fontSize: 16 }}>The fourth mission of Living Ancestry is to <b>encourage and contribute to family relationships</b> by acting as a Family Social Media and Networking Platform.</p>
 								</div>
 							</div>
-						</li>						
+							</li>
+
+							<li class="cd-faq__item">
+								<a class="cd-faq__trigger" ><span><b>Mission 5</b></span></a>
+								<div class="cd-faq__content">
+									<div class="text-component">
+										<p style={{ color: 'black', fontSize: 16 }}>The fifth mission of Living Ancestry is to <b>prioritize data security</b> and provide users with robust control and management over their information.</p>
+									</div>
+								</div>
+							</li>	
 					</ul>
 				</div>
 				</section> 

@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\components\\imgs"
+    "\\src\\components"
   ],
-  "SelectedNode": "\\src\\components\\imgs\\snowboarding.MOV",
+  "SelectedNode": "\\src\\components\\Profile.js",
   "PreviewInSolutionExplorer": false
 }
