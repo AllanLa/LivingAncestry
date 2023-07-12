@@ -11,7 +11,7 @@ import { TimeCapsule } from './TimeCapsule';
 
 import { ALLAN_PROFILE, ALLAN1_PROFILE, SAM_PROFILE, TERESA_PROFILE, SAMPLE_PROFILE, ANITA_PROFILE, DAD_PROFILE } from '../data/SampleProfile';
 
-let allanAbout = "Hi! I am the founder of Living Ancestry, thank you for visiting this site and supporting Living Ancestry. I can't do this alone, please help me by signing up for the beta release on the home page to help me move this project forward! This profile example illustrates how one's public or private digital time capsule can be customized. There will be some basic information a user will be required to provide. The rest of the profile, a user can customize how they like to. I want to leave behind a profile to help my descendants in the future in whatever ways I think I can help them. Hopefully, my descendants will learn all about where they came from, our struggles, our stories, and hopefully be inspired to leave their own behind their own digital time capsule for the next generation. Please sign up for the beta release to support Living Ancestry on the home page! Feel free to follow me or Living Ancestry's social media profiles to learn more and receive information in the future.";
+let allanAbout = "At Living Ancestry, our mission is to empower families to preserve their roots and create a meaningful connection with their heritage. We understand the importance of passing down traditions, preserving roots and values to future generations. That's why Living Ancestry's role is to help facilitate users to create meaningful and impactful digital time capsules. Our end goal is to address the challenges of generational wealth. Through the family tree, Living Ancestry's mission is to empower future generations to leverage the digital time capsules built overtime. Join us on this incredible journey of preserving your family's roots for the benefit of future generations."
 
 const CARD_STYLE = {
     background: '#848482',
@@ -90,7 +90,7 @@ export class Profile extends Component {
       
         if (this.props.match.params.id == "allanla") {
             return (
-                <Container style={{marginBottom: 10, height: '100%'}}>
+                <Container style={{marginTop: 20, height: '100%'}}>
                     <Nav tabs>
                         <NavItem style={{ cursor: 'pointer' }}>
                             <NavLink
@@ -163,7 +163,7 @@ export class Profile extends Component {
             );
         }
         return (
-            <Container style={{ marginBottom: 10 }}>
+            <Container style={{ marginTop: 20 }}>
                 <Nav tabs>
                     <NavItem style={{ cursor: 'pointer' }}>
                         <NavLink
@@ -227,20 +227,6 @@ export class Profile extends Component {
                                         <h3>
                                             <Badge target="_blank" href={profile.portfolioUrl} color="success">
                                                 <i className="fab fa-linkedin"> View Portfolio</i></Badge>
-                                        </h3>
-                                    </ListGroupItem>
-
-                                    <ListGroupItem color="info">
-                                        <h3>
-                                            <Badge target="_blank" href={profile.instagramUrl} color="danger">
-                                                <i className="fab fa-instagram"> View Instagram</i></Badge>
-                                        </h3>
-                                    </ListGroupItem>
-
-                                    <ListGroupItem color="info">
-                                        <h3>
-                                            <Badge target="_blank" href={profile.facebookUrl} color="primary">
-                                                <i className="fab fa-facebook"> View Facebook</i></Badge>
                                         </h3>
                                     </ListGroupItem>
                                 </ListGroup>

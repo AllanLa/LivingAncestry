@@ -102,19 +102,19 @@ export class Tree extends Component {
                         isOpen={showBasicProfile}
                         toggle={() => this.setState({ showBasicProfile: false })}
                         target='Popover1'>
-                       
+                        <PopoverHeader style={{ height: 45 }} >
+                            <Button style={{ maxHeight: 30}} close onClick={this.closeBasicProfile} />
+                        </PopoverHeader>
                         <PopoverBody>
                             <Card top width='100%'>
-                                <CardBody>
-                                    <Button style={{ maxHeight: 30, marginBottom: 5 }}  close onClick={this.closeBasicProfile} />
-                                    <CardImg top style={{ marginBottom: 10 , maxHeight: 200}} width="50%" src={profile.picture} alt="Profile Picture" />
+                                <CardBody>    
+                                    <CardImg top style={{ marginBottom: 20 , height: 200, width: 200}} src={profile.picture} alt="Profile Picture" />
                                     <CardSubtitle>{profile.subtitle}</CardSubtitle>
-                                    <CardText>{profile.description}</CardText>
-                                    <Button color='primary' onClick={this.openProfile.bind(this, profile)} >View full profile</Button>
+                                    <CardText>{profile.description}</CardText>                               
                                 </CardBody>
                             </Card>
                         </PopoverBody>
-                        <PopoverHeader>Name: {profile.name}</PopoverHeader>
+                        <PopoverHeader>Name: {profile.name} <Button style={{ marginLeft: 10, height: 35}} color='secondary' onClick={this.openProfile.bind(this, profile)} ><span style={{ color: 'white' , fontSize: 14}}>View Profile</span></Button></PopoverHeader>
                     </UncontrolledPopover>
                 </div>
             </Container>

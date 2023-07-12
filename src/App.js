@@ -39,8 +39,6 @@ export default class App extends Component {
             <Route exact path='/mission' component={Mission} />
             <Route exact path='/tree'
                 render={(props) => <Tree {...props} />} />
-         
-            
       </Layout>
     );
   }

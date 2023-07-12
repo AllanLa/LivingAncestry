@@ -15,10 +15,10 @@ export class Footer extends Component {
 
     render() {
         return (
-            <footer>
-                <Navbar style={{ bottom: 0, position: 'relative', maxHeight: 100 }} className="ng-white border-top" light>
+            <footer style={{ bottom: 0, position: 'absoltue' }}>
+                <Navbar style={{ bottom: 0, position: 'absoltue', maxHeight: 40 }} className="ng-white border-top" light>
                     <Row style={{justifyContent: 'space-around'}}>
-                    <NavbarText><b>Follow Living Ancestry Social Media for more news and updates. These follows will really help move this project forward. Thank you!</b></NavbarText>
+                        <NavbarText><b>©2023 Living Ancestry, Inc. Please email allanlalala@gmail.com for questions or further inquiries. Follow Living Ancestry Social Media for more news and updates.</b></NavbarText>
                     <ButtonGroup>
                         <Button outline className="fab fa-facebook" color="secondary"
                                 onClick={this.openLink.bind(this, "https://fb.me/LivingAncestry")} />
@@ -26,9 +26,6 @@ export class Footer extends Component {
                                 onClick={this.openLink.bind(this, "https://www.linkedin.com/company/47579938")} />
                         </ButtonGroup>
                     </Row>
-                    <Row>
-                        <NavbarText>©2023 Living Ancestry, Inc. Please email allanlalala@gmail.com for questions or further inquiries.</NavbarText>
-                        </Row>
                 </Navbar>
             </footer>
         );

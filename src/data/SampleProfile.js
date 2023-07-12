@@ -6,7 +6,7 @@ import teresa from '../components/imgs/TeresaProfile.jpg';
 import anita from '../components/imgs/AnitaProfile.jpg';
 import dad from '../components/imgs/DadProfile.JPG';
 
-const DEFAULT_ABOUT = "This could be your family member's time capsule. Users will be able to build their own time capsule then connect it to the tree, but there will also be a feature to build time capsules in lieu of other members. Imagine how much you can learn about them. Imagine how much your children could learn about them. Now imagine how much your great-great-great grandchildren can learn about them, learn about you if you built out your time capsule. What could you pass down? Please sign up for the beta release to support Living Ancestry! This would be really helpful and appreciated!";
+const DEFAULT_ABOUT = "Growing up, I witnessed firsthand the incredible journey my family embarked on. Their resilience, sacrifices, and rich cultural heritage have shaped who I am today. My love for them and admiration for their experiences have ignited a deep desire within me to ensure that our family's story is cherished and passed down to future generations. With Living Ancestry, I have the opportunity to facilitate a digital time capsule that captures the essence of our lives—the stories, wisdom, and traditions that define us. The thought of my children being able to learn about our journey, understand our background, and feel a deep connection to their roots fills me with immense joy and pride."
 
 export const SAMPLE_PROFILE = {
     name: 'First Last',

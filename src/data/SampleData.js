@@ -23,7 +23,7 @@ export const SAMPLE_DATA = [
         name: "Dave La",
         picture: dad,
         profile: 'davela',
-        subtitle: "Birthday: December 24, 1994",
+        subtitle: "Birthday: December 24, 1964",
         description: "Fun Fact: I have two sets of twins.",
         nodeSvgShape: {
             shape: 'image',
@@ -48,6 +48,7 @@ export const SAMPLE_DATA = [
                     shape: 'image',
                     shapeProps: {
                         href: sam,
+                        r: 50,
                         width: 100,
                         height: 100,
                         x: -50,
@@ -66,6 +67,7 @@ export const SAMPLE_DATA = [
                     shape: 'image',
                     shapeProps: {
                         href: teresa,
+                        r: 50,
                         width: 100,
                         height: 100,
                         x: -50,
@@ -79,15 +81,15 @@ export const SAMPLE_DATA = [
                 picture: allan,
                 profile: 'allanla',
                 subtitle: "Birthday: July 17, 1995",
-                description: "Fun Fact: I hope that Living Ancestry will help others pass down their wisdom and knowledge to the future. Please sign up for the beta release on the home page to support Living Ancestry!",
+                description: "Fun Fact: I am twins with Anita. ",
                 children: [
                     {
                         id: 5,
-                        name: "Allan La Junior",
+                        name: "August La",
                         picture: allan1,
                         profile: 'allanla1',
                         subtitle: "Birthday: July 17, 2029",
-                        description: "Fun Fact: My children will be able to access my dad's profile and learn all about him from his time capsule. He can learn about my Dad and understand who he was. Allan La Junior's children will be able to access all these time capsules too as they will be added to the tree eventually and so forth.",
+                        description: "Fun Fact: I will be so happy to have these time capsules. I can learn so much from them and I know one day my children can too. I will build one out myself, eventually leaving behind one myself to contribute further digital assets for the family.",
                         nodeSvgShape: {
                             shape: 'image',
                             shapeProps: {
@@ -96,6 +98,7 @@ export const SAMPLE_DATA = [
                                 height: 100,
                                 x: -50,
                                 y: -50,
+                                r: 50,
                             },
                         },
                     }
@@ -108,6 +111,7 @@ export const SAMPLE_DATA = [
                         height: 100,
                         x: -50,
                         y: -50,
+                        r: 50,
                     },
                 },
             },
@@ -125,7 +129,8 @@ export const SAMPLE_DATA = [
                         width: 100,
                         height: 100,
                         x: -50,
-                        y: -50
+                        y: -50,
+                        r: 50,
                     },
                 },
             },
