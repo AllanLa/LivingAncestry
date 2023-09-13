@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\css",
+    "\\src\\data"
   ],
-  "SelectedNode": "\\src\\components\\Profile.js",
+  "SelectedNode": "\\src\\components\\Tree.js",
   "PreviewInSolutionExplorer": false
 }
